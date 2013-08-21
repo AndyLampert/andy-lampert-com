@@ -1,20 +1,31 @@
-li ul {
-	display: inline-block;
-	list-style-type: none;
-}
-aside {
-			display:inline-block;
-	float:left;
-}
-article {
-		display:inline-block;
-	float:right;
-	}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.hero-unit {
+	background-color: #c2c2c2;
+}
 
+nav {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+aside {
+	display:inline-block;
+	float:left;
+}
+article {
+	display:inline-block;
+	float:right;
+}
 
+post.details {
+	display: inline-block;
+}
+
+p > span {
+	text-transform: uppercase;
+}
 
 
 
